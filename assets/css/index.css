@@ -1,0 +1,54 @@
+body{
+    background-color:#6e6cc72e;
+    font-family: "Montserrat",sans-serif;
+}
+
+.portfolio-owner{
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.intro-banner{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+    max-width: 75%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+h1{
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+.intro-banner img {
+    position: absolute;
+    bottom: -190px;;
+    right: 3px;
+}
+img{
+    border: 0;
+}
+@media only screen and (max-width: 600px) {
+    .intro-banner img {
+        max-width: 100%;
+        height: auto;
+    }
+  }
