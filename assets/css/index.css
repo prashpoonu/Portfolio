@@ -1,13 +1,18 @@
 body{
-    background-color:#6e6cc72e;
+    background-color:#DFF9FE;
     font-family: "Montserrat",sans-serif;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
 }
 
 .portfolio-owner{
     margin: 0 0 0 10px;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
+    font-family: 'Aclonica', sans-serif;
 }
 .intro-banner{
     position: relative;
@@ -42,13 +47,51 @@ h1{
     position: absolute;
     bottom: -190px;;
     right: 3px;
+    top:1px;
 }
 img{
     border: 0;
+}
+.l-side-nav::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 2px;
+    height: 70%;
+    max-height: 750px;
+    background-color: #555;
+    opacity: .35;
+    z-index: 10;
+    
+
+}
+ul{
+    list-style-type:none;
+}
+
+.side-nav>li{
+    position:relative;
+    top:-5px;
+    cursor: pointer;
+   
+}
+
+.side-nav>li span {
+    position: relative;
+    top: 3px;
+    left: 10px;
+    color:blue;
+    font-size: 14px;
+    font-weight: 300;
+    
 }
 @media only screen and (max-width: 600px) {
     .intro-banner img {
         max-width: 100%;
         height: auto;
+        margin-top: 275px;
     }
   }
