@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
-/*
-	Caminar by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Reset */
 
@@ -2920,7 +2915,7 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../Img/bg.jpg);
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -2954,25 +2949,24 @@
 		z-index: 10001;
 	}
 
-		#header > .logo {
+		#header > .Intro {
 			margin: 0 0 4rem 0;
 			padding: 0;
 		}
 
-			#header > .logo a {
-				font-size: 4rem;
+			#header > .Intro {
+				font-size: 2.5rem;
 				font-weight: 700;
 				color: #FFF;
 				text-decoration: none;
-				line-height: 1rem;
+				line-height: 1.5rem;
 			}
 
-			#header > .logo span {
-				font-weight: 300;
-				font-size: 1rem;
+			#header > .Intro span {
+				font-weight: 700;
+				font-size: 2.5rem;
 				display: block;
-				color: rgba(255, 255, 255, 0.65);
-			}
+				}
 
 	@media screen and (max-width: 1280px) {
 
@@ -2987,12 +2981,12 @@
 
 	@media screen and (max-width: 736px) {
 
-		#header > .logo {
+		#header > .Intro {
 			margin: 0 0 2rem 0;
 		}
 
-			#header > .logo a {
-				font-size: 3rem;
+			#header > .Intro span {
+				font-size: 1.0rem;
 			}
 
 	}
