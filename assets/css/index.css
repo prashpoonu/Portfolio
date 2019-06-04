@@ -42,6 +42,9 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	#about-me{
+		font-size:2rem;
+	}
 
 /* Box Model */
 
@@ -2370,6 +2373,9 @@
 		}
 
 /* Image */
+#header-img{
+	height: 20%;
+}
 
 	.image {
 		display: inline-block;
@@ -2378,6 +2384,7 @@
 
 		.image.flush {
 			margin: 0 !important;
+			
 		}
 
 		.image img {
@@ -2915,7 +2922,7 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			background-image: url(../Img/bg.jpg);
+			background-image: url(../Img/np.jpg);
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
